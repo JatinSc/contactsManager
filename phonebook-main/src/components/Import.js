@@ -6,7 +6,9 @@ import { useContext, useState } from "react";
 import axios from "axios";
 import ContactContext from "../context/ContactContext";
 
-const APIUrl = "http://127.0.0.1:8080";
+// # const APIUrl = "http://127.0.0.1:8080"; backend link 
+
+const APIUrl = "https://contacts-manager-api.onrender.com"
 
 function Import() {
   const { getData } = useContext(ContactContext)

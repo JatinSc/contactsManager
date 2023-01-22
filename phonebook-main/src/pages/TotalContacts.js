@@ -14,7 +14,9 @@ import Edit from '../assests/images/Layer 42.png'
 import Delete from '../assests/images/Layer 17.png'
 import "./totalContact.css";
 import ContactContext from "../context/ContactContext";
-const APIUrl = "http://127.0.0.1:8080"
+
+const APIUrl = "https://contacts-manager-api.onrender.com"
+
 const TotalContact = () => {
   const { contact, getData, setContact } = useContext(ContactContext)
   const navigate = useNavigate();

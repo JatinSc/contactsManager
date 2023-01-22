@@ -6,7 +6,7 @@ import "./signup.css";
 import dots from "../Images/dots.svg";
 import topleft from "../Images/topleft.svg";
 import bottomright from "../Images/bottomright.svg";
-const APIUrl = "http://127.0.0.1:8080"
+const APIUrl = "https://contacts-manager-api.onrender.com"
 
 const Signup = () => {
   const [email, setEmail] = useState("");
